@@ -1,0 +1,82 @@
+.button {
+	font-size: 30px;
+	color: gray;
+	outline: none;
+	border: none;
+	background: none;
+	padding: 5px;
+}
+
+.button:hover {
+	font-size: 30px;
+	color: blue;
+	outline: none;
+	border: none;
+	background: none;
+	padding: 5px;
+}
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.problem {
+	font-size: 30px;
+	color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.answer {
+	font-size: 30px;
+	color: #00ff00;
+	outline: none;
+	background: none;
+	border: 0;
+	width: 40px;
+}
+
+.answerButton {
+	font-size: 30px;
+	color: red;
+	outline: none;
+	border: none;
+	background: none;
+	padding: 5px;
+	display: none;
+}
+
+.answerButton:hover {
+	font-size: 32px;
+	color: red;
+	outline: none;
+	border: none;
+	background: none;
+	padding: 5px;
+	display: none;
+}
+
+.buttonWin {
+	font-size: 50px;
+	color: gray;
+	outline: none;
+	border: none;
+	background: none;
+	padding: 5px;
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buttonLose {
+	font-size: 50px;
+	color: gray;
+	outline: none;
+	border: none;
+	background: none;
+	padding: 5px;
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+}

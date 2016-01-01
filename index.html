@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+</head>
+<body background="art/space.jpg" onload="onStart()">
+	</br>
+	<table class="center">
+		<tr>
+			<td>
+				<button class="button" id="add" onclick="doAdd()">Addition (+)</button>
+				<button class="button" id="sub" onclick="doSub()">Subtraction (-)</button>
+				<button class="button" id="mult" onclick="doMult()">Multiplication (x)</button>
+				<button class="button" id="div" onclick="doDiv()">Division (/)</button>
+			</td>
+		</tr>
+	</table>
+	</br>
+	</br>
+	<table class="problem">
+		<tr>
+			<td id="problem">The Tie Fighters are attacking!  Choose a math function to practice and destroy the attackers with your correct answers!</td>
+			<td><input class="answer" id="answer" type="text"></input></td>
+			<td><button class="answerButton" id="enter" onclick="enterAnswer()">Fire!</button></td>
+		</tr>
+	</table>
+	</br>
+	</br>
+	</br>
+	<table class="center">
+		<tr>
+			<td><img id="tie1" src="art/tieFighter.jpg"></img<></td>
+			<td><img id="tie2" src="art/tieFighter.jpg"></img<></td>
+			<td><img id="tie3" src="art/tieFighter.jpg"></img<></td>
+			<td><img id="tie4" src="art/tieFighter.jpg"></img<></td>
+			<td><img id="tie5" src="art/tieFighter.jpg"></img<></td>
+			<td><img id="tie6" src="art/tieFighter.jpg"></img<></td>
+		</tr>
+	</table>
+	</br>
+	</br>
+	<table class="center">
+		<tr>
+			<td><img id="xwing1" src="art/xwing.jpg"></img></td>
+			<td><img id="xwing2" src="art/xwing.jpg"></img></td>
+			<td><img id="xwing3" src="art/xwing.jpg"></img></td>
+			<td><img id="xwing4" src="art/xwing.jpg"></img></td>
+			<td><img id="xwing5" src="art/xwing.jpg"></img></td>
+			<td><img id="xwing6" src="art/xwing.jpg"></img></td>
+		</tr>
+	</table>
+	</br>
+	<button class="buttonWin" id="win" onclick="onDone()">Congratulations! You destroyed all of the tie fighters! Click to continue...</button>
+	<button class="buttonLose" id="lose" onclick="onDone()">The tie fighters have prevailed...Click to continue and return to the base...</button>
+	<audio id="tiefighter">
+		<source src="sounds/tie_fighter.wav"/>
+	</audio>
+	<audio id="lazer">
+		<source src="sounds/lazer.wav"/>
+	</audio>
+	<audio id="tieLazer">
+		<source src="sounds/TIE-Fire.wav"/>
+	</audio>
+</body>
+</html>
