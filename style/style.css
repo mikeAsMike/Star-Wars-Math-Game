@@ -1,6 +1,11 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 .button {
 	font-size: 30px;
 	color: gray;
+	cursor: pointer;
 	outline: none;
 	border: none;
 	background: none;
@@ -37,9 +42,14 @@
 	width: 40px;
 }
 
-.answerButton {
+.answer.hide, #problem.hide, .button.hide {
+	display: none;
+}
+
+.answer-button {
 	font-size: 30px;
 	color: red;
+	cursor: pointer;
 	outline: none;
 	border: none;
 	background: none;
@@ -47,7 +57,7 @@
 	display: none;
 }
 
-.answerButton:hover {
+.answer-button:hover {
 	font-size: 32px;
 	color: red;
 	outline: none;
@@ -57,9 +67,14 @@
 	display: none;
 }
 
-.buttonWin {
+.answer-button.ready {
+	display: block;
+}
+
+.button-win {
 	font-size: 50px;
 	color: gray;
+	cursor: pointer;
 	outline: none;
 	border: none;
 	background: none;
@@ -69,9 +84,10 @@
 	margin-right: auto;
 }
 
-.buttonLose {
+.button-lose {
 	font-size: 50px;
 	color: gray;
+	cursor: pointer;
 	outline: none;
 	border: none;
 	background: none;
@@ -79,4 +95,8 @@
 	display: none;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.button-win.show, .button-lose.show {
+	display: block;
 }
