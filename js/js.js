@@ -48,6 +48,13 @@ objStarWars.addEvents = function() {
 	objStarWars.arrResetButtons.click(function(e) {
 		objStarWars.resetGame();
 	});
+
+	objStarWars.objAnswer.keypress(function(e) {
+		var keycode = (event.keyCode ? event.keyCode : event.which);
+		if(keycode == '13'){
+			objStarWars.enterAnswer();
+		}
+	});
 };
 
 objStarWars.clearInput = function() {
