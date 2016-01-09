@@ -48,7 +48,7 @@ body {
 
 .answer-button {
 	font-size: 30px;
-	color: red;
+	color: #00ff00;
 	cursor: pointer;
 	outline: none;
 	border: none;
@@ -64,11 +64,34 @@ body {
 	border: none;
 	background: none;
 	padding: 5px;
-	display: none;
 }
 
 .answer-button.ready {
 	display: block;
+}
+
+.quit-button.ready {
+	display: block;
+}
+
+.quit-button {
+	font-size: 30px;
+	color: gray;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	background: none;
+	padding: 5px;
+	display: none;
+}
+
+.quit-button:hover {
+	font-size: 32px;
+	color: red;
+	outline: none;
+	border: none;
+	background: none;
+	padding: 5px;
 }
 
 .button-win {
