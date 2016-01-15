@@ -257,4 +257,5 @@ objStarWars.resetGame = function () {
     objStarWars.objWin.removeClass("show");
     objStarWars.objEnter.removeClass("ready");
     objStarWars.objQuit.removeClass("ready");
+    objStarWars.objProblem.text("The Tie Fighters are attacking! Choose a math function to practice and destroy the attackers with your correct answers!");
 };
